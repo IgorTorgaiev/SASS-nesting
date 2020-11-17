@@ -1,0 +1,28 @@
+// Nesting
+
+nav {
+    ul {
+        margin: 0;
+        padding: 5px;
+    }
+    li {
+        display: inline-block;
+    }
+    a {
+        padding: 5px 10px;
+        display: inline-block;
+        text-decoration: none;   
+    }
+    .first {
+        color: red;
+    }
+    .second {
+        background-color: grey;
+    }
+    .second:hover {
+        color: blue;
+    }
+    .third {
+        text-decoration: underline;
+    }
+}
